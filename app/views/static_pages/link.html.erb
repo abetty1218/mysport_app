@@ -1,0 +1,35 @@
+<div class="row">
+  <% provide(:title, "おすすめサイト") %>
+  <h1>テニス情報サイト</h1>
+  <div class="link">
+    <h2>1.テニス365</h2>
+    <div class="link-content">  
+      <a href="https://news.tennis365.net/news/index.html" target="_blank">
+         <img id="img1" src="http://news.tennis365.net/news/img/header/apple-touch-icon.png">
+      </a>
+      <p id="content1">このサイトは、国内最大規模のテニスポータルサイトです。</br>国内外のプロテニスに関するニュース記事だけでなく、サークルや近場のテニスコートの検索機能やラケット・ウエア等のテニス用品のショッピングサイトと
+      しての機能もあり、テニス全般の情報を確認することができます。</p>
+    </div>  
+  </div>
+  <div class="link">
+    <h2>2.テニスデイリー</h2>
+      <div class="link-content">
+        <a href="https://www.thetennisdaily.jp/news/overseas/itf/devis/2018/0034304.php" target="_blank">
+           <%= image_tag("tennis_daily.png",:id => "img2") %>
+        </a>
+        <p id="content2">テニス雑誌の老舗「テニスマガジン」が運営する、テニスの総合ニュースサイトです。</br>国内外の細かい大会の結果から、学生テニス大会のレポート等
+        まで、丁寧な記事が特徴です。</p>
+      </div>
+  </div> 
+  <div class="link">
+    <h2>3.HOTSHOT</h2>
+      <div class="link-content">
+        <a href="http://hotshot.jp/" target="_blank">
+           <%= image_tag("hotshot.png",:id => "img3") %>
+        </a>   
+        <p id="content3">とにかくテニスを動画で楽しみたい！という人にお勧めなのがこのサイトです。</br>プロ選手のスーパーショットから、ちょっとしたハプニング＆面白動画までピックアップして掲載しています。
+        自分のプレーに参考にすることも、新しいテニス選手を発見することもできます。</p>
+      </div>
+  </div> 
+
+</div>

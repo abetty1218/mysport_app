@@ -1,0 +1,10 @@
+<h1>We Love Tennisへようこそ</h1>
+
+<p>初めまして、<%= @user.name %>さん</p>
+
+<p>We Love Tennisへようこそ！！</p>
+
+<p>アカウントを有効化するため、下記のリンクにアクセスして下さい。</p>
+
+<%= link_to "アカウント有効化", edit_account_activation_url(@user.activation_token,
+                                                    email: @user.email) %>
